@@ -1,21 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalnum.c                                       :+:      :+:    :+:   */
+/*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/10 11:21:29 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/10 13:02:10 by miduarte         ###   ########.fr       */
+/*   Created: 2025/04/10 12:45:46 by miduarte          #+#    #+#             */
+/*   Updated: 2025/04/10 13:01:45 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isalnum (int	arg)
+int	ft_tolower(int	ch)
 {
-	if((arg >= 'A' && arg <= 'Z') || (arg >= 'a' && arg <= 'z') || (arg  >= '0' && arg <= '9'))
-		return (1);
-	else
-		return (0);
+	if (ch >= 'A' && ch <= 'Z')
+		ch = ch + 32;
+	return (ch);
 }

@@ -1,28 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/10 10:55:27 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/10 14:44:53 by miduarte         ###   ########.fr       */
+/*   Created: 2025/04/10 14:43:01 by miduarte          #+#    #+#             */
+/*   Updated: 2025/04/10 14:45:27 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#include "libft.h"
 
-#include <unistd.h>
-#include <stdlib.h>
-
-int	ft_isalpha(int  ch);
-int	ft_isdigit(int	arg);
-int	ft_isalnum (int	arg);
-int	ft_isprint (int	c);
-size_t	ft_strlen(const char	*str);
-int	ft_toupper(int	ch);
-int	ft_tolower(int	ch);
-int	ft_atoi (const char	*str);
-
-#endif
+char *ft_strdup(const char *src)
+{
+	int	srclen;
+	char	*dest;
+	int	i;
+	
+	i = 0;
+	srclen = ft_strlen(src);
+	dest = malloc(sizeof(char) * srclen + 1);
+	while (src[i] != '\0')
+	{
+		dest[i] = src[i];
+		i++;
+	}
+	dest[i] = '\0';
+	return(dest);
+}

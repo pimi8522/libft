@@ -6,7 +6,7 @@
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/11 13:15:28 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/11 15:13:16 by miduarte         ###   ########.fr       */
+/*   Updated: 2025/04/11 16:20:43 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@ void *ft_calloc(size_t count, size_t size)
 {
     void    *ptr;
     size_t    mult;
-
 
     if (count == 0 || size == 0)
         return (malloc(0));

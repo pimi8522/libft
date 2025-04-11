@@ -6,7 +6,7 @@
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 10:55:27 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/11 11:59:58 by miduarte         ###   ########.fr       */
+/*   Updated: 2025/04/11 13:02:35 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,5 +28,6 @@ char *ft_strdup(const char *src);
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
 void	*ft_memset	(void *ptr, int	value, size_t	num);
 void	*ft_memcpy(void	*dest, const void	*source, size_t	num);
+void ft_bzero(void *s, size_t n);
 
 #endif

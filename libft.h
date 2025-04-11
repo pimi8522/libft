@@ -6,7 +6,7 @@
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 10:55:27 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/11 13:02:35 by miduarte         ###   ########.fr       */
+/*   Updated: 2025/04/11 14:48:45 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 #include <unistd.h>
 #include <stdlib.h>
+#include <limits.h>
 
 int	ft_isalpha(int  ch);
 int	ft_isdigit(int	arg);
@@ -29,5 +30,6 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
 void	*ft_memset	(void *ptr, int	value, size_t	num);
 void	*ft_memcpy(void	*dest, const void	*source, size_t	num);
 void ft_bzero(void *s, size_t n);
+void *ft_calloc(size_t count, size_t size);
 
 #endif

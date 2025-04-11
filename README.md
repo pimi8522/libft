@@ -6,12 +6,12 @@
 | isascii | <p align="center">✅</p> |
 | isprint | <p align="center">✅</p> |
 | strlen | <p align="center">✅</p> |
-| memset | <p align="center">❌</p> |
+| memset | <p align="center">✅</p> |
 | bzero | <p align="center">❌</p> |
-| memcpy | <p align="center">❌</p> |
+| memcpy | <p align="center">✅</p> |
 | memmove | <p align="center">❌</p> |
 | strlcpy | <p align="center">❌</p> |
-| strlcat | <p align="center">❌</p> |
+| strlcat | <p align="center">❌meh</p> |
 | toupper | <p align="center">✅</p> |
 | tolower | <p align="center">✅</p> |
 | strchr | <p align="center">❌</p> |

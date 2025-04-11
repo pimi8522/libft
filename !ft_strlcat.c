@@ -1,33 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strdup.c                                        :+:      :+:    :+:   */
+/*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/10 14:43:01 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/11 10:50:39 by miduarte         ###   ########.fr       */
+/*   Created: 2025/04/10 14:52:12 by miduarte          #+#    #+#             */
+/*   Updated: 2025/04/11 10:52:19 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strdup(const char *src)
+size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {
-	int	srclen;
-	char	*dest;
-	int	i;
-	
-	i = 0;
+	size_t	srclen;
+	size_t	destlen;
+
 	srclen = ft_strlen(src);
-	dest = malloc(sizeof(char) * srclen + 1);
-    if (!dest)
-        return (NULL);
-	while (src[i] != '\0')
+    destlen = ft_strlen(dst);
+	if (destlen == dstsize)
+		return(destlen + srclen);
+	else if (dstsize >= (srclen + destlen))
 	{
-		dest[i] = src[i];
-		i++;
+		while 
 	}
-	dest[i] = '\0';
-	return(dest);
+    /* if dstsize is big enough to accomodate both src and dst */
+    /* concatenate src at the end of dst */
+    /* else, concatenate dstsize character maximum */
+    return (/* length of src + length of dst */);
 }

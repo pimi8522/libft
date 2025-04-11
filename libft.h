@@ -6,7 +6,7 @@
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 10:55:27 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/10 14:44:53 by miduarte         ###   ########.fr       */
+/*   Updated: 2025/04/11 11:59:58 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,5 +24,9 @@ size_t	ft_strlen(const char	*str);
 int	ft_toupper(int	ch);
 int	ft_tolower(int	ch);
 int	ft_atoi (const char	*str);
+char *ft_strdup(const char *src);
+size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
+void	*ft_memset	(void *ptr, int	value, size_t	num);
+void	*ft_memcpy(void	*dest, const void	*source, size_t	num);
 
 #endif

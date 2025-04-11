@@ -1,33 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strdup.c                                        :+:      :+:    :+:   */
+/*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/10 14:43:01 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/11 10:50:39 by miduarte         ###   ########.fr       */
+/*   Created: 2025/04/11 11:58:34 by miduarte          #+#    #+#             */
+/*   Updated: 2025/04/11 12:28:33 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strdup(const char *src)
+void	*ft_memcpy(void	*dest, const void	*source, size_t	num)
 {
-	int	srclen;
-	char	*dest;
-	int	i;
+	unsigned char *destptr;
+	unsigned char	*srcptr;
+	size_t	i;
 	
 	i = 0;
-	srclen = ft_strlen(src);
-	dest = malloc(sizeof(char) * srclen + 1);
-    if (!dest)
-        return (NULL);
-	while (src[i] != '\0')
+	if (!dest && !source)
+		return (dest);
+	destptr = (unsigned char *) dest;
+	srcptr = (unsigned char *) source;
+	while (i < num)
 	{
-		dest[i] = src[i];
+		destptr[i] = srcptr[i];
 		i++;
 	}
-	dest[i] = '\0';
-	return(dest);
+	return (dest);
 }

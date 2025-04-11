@@ -21,5 +21,5 @@
 | mrmcmp | <p align="center">❌</p> |
 | strnstr | <p align="center">❌</p> |
 | atoi | <p align="center">✅</p> |
-| calloc | <p align="center">❌</p> |
+| calloc | <p align="center">✅</p> |
 | strdup | <p align="center">✅</p> |

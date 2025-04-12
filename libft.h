@@ -33,5 +33,7 @@ void	*ft_memcpy(void	*dest, const void	*source, size_t	num);
 void ft_bzero(void *s, size_t n);
 void *ft_calloc(size_t count, size_t size);
 void *ft_memmove(void *dest, const void *src, size_t len);
+int ft_strncmp ( const char * str1, const char * str2, size_t num );
+
 
 #endif

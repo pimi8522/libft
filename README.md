@@ -14,7 +14,7 @@
 | strlcat | <p align="center">❌meh</p> |
 | toupper | <p align="center">✅</p> |
 | tolower | <p align="center">✅</p> |
-| strchr | <p align="center">❌</p> |
+| strchr | <p align="center">✅</p> |
 | strrchr | <p align="center">❌</p> |
 | strncmp | <p align="center">✅</p> |
 | mrmchr | <p align="center">❌</p> |

@@ -35,6 +35,6 @@ void *ft_calloc(size_t count, size_t size);
 void *ft_memmove(void *dest, const void *src, size_t len);
 int ft_strncmp ( const char * str1, const char * str2, size_t num );
 char *ft_strnstr(const char *big,	const char *little, size_t len);
-
+const char * ft_strchr ( const char * str, int character );
 
 #endif

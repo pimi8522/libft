@@ -37,5 +37,6 @@ int ft_strncmp ( const char * str1, const char * str2, size_t num );
 char *ft_strnstr(const char *big,	const char *little, size_t len);
 const char * ft_strchr ( const char * str, int character );
 const char * ft_strrchr ( const char * str, int character );
+size_t ft_strlcpy(char *dst, const char *src, size_t dstsize);
 
 #endif

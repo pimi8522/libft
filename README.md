@@ -10,7 +10,7 @@
 | bzero | <p align="center">✅</p> |
 | memcpy | <p align="center">✅</p> |
 | memmove | <p align="center">✅</p> |
-| strlcpy | <p align="center">❌</p> |
+| strlcpy | <p align="center">✅</p> |
 | strlcat | <p align="center">❌meh</p> |
 | toupper | <p align="center">✅</p> |
 | tolower | <p align="center">✅</p> |

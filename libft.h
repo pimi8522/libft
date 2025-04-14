@@ -38,6 +38,7 @@ char *ft_strnstr(const char *big,	const char *little, size_t len);
 const char * ft_strchr ( const char * str, int character );
 const char * ft_strrchr ( const char * str, int character );
 size_t ft_strlcpy(char *dst, const char *src, size_t dstsize);
-
+void *ft_memchr(const void *s, int c, size_t n);
+int ft_memcmp(const void *s1, const void *s2, size_t n);
 
 #endif

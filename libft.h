@@ -27,7 +27,7 @@ int	ft_toupper(int	ch);
 int	ft_tolower(int	ch);
 int	ft_atoi (const char	*str);
 char *ft_strdup(const char *src);
-size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
+size_t	ft_strlcat(char *dest, const char *src, size_t dstsize);
 void	*ft_memset	(void *ptr, int	value, size_t	num);
 void	*ft_memcpy(void	*dest, const void	*source, size_t	num);
 void ft_bzero(void *s, size_t n);
@@ -38,5 +38,6 @@ char *ft_strnstr(const char *big,	const char *little, size_t len);
 const char * ft_strchr ( const char * str, int character );
 const char * ft_strrchr ( const char * str, int character );
 size_t ft_strlcpy(char *dst, const char *src, size_t dstsize);
+
 
 #endif

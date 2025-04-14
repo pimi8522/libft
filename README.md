@@ -17,8 +17,8 @@
 | strchr | <p align="center">✅</p> |
 | strrchr | <p align="center">✅</p> |
 | strncmp | <p align="center">✅</p> |
-| mrmchr | <p align="center">❌</p> |
-| mrmcmp | <p align="center">❌</p> |
+| memchr | <p align="center">❌</p> |
+| memcmp | <p align="center">❌</p> |
 | strnstr | <p align="center">✅</p> |
 | atoi | <p align="center">✅</p> |
 | calloc | <p align="center">✅</p> |

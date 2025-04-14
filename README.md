@@ -11,7 +11,7 @@
 | memcpy | <p align="center">✅</p> |
 | memmove | <p align="center">✅</p> |
 | strlcpy | <p align="center">✅</p> |
-| strlcat | <p align="center">❌meh</p> |
+| strlcat | <p align="center">✅</p> |
 | toupper | <p align="center">✅</p> |
 | tolower | <p align="center">✅</p> |
 | strchr | <p align="center">✅</p> |

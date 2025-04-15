@@ -6,7 +6,7 @@
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 14:43:01 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/11 10:50:39 by miduarte         ###   ########.fr       */
+/*   Updated: 2025/04/15 11:57:48 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,8 @@ char *ft_strdup(const char *src)
 	i = 0;
 	srclen = ft_strlen(src);
 	dest = malloc(sizeof(char) * srclen + 1);
-    if (!dest)
-        return (NULL);
+	if (!dest)
+		return (NULL);
 	while (src[i] != '\0')
 	{
 		dest[i] = src[i];

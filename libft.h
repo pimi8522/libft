@@ -18,6 +18,12 @@ miduarte         ###   ########.fr       */
 #include <stdlib.h>
 #include <limits.h>
 
+
+typedef struct s_list
+{
+	void *content;
+	struct s_list *next;
+} t_list;
 int	ft_isalpha(int  ch);
 int	ft_isdigit(int	arg);
 int	ft_isalnum (int	arg);
@@ -46,10 +52,11 @@ void ft_putchar_fd(char c, int fd);
 void ft_putstr_fd(char *s, int fd);
 void ft_putendl_fd(char *s, int fd);
 void ft_putnbr_fd(int nb, int fd);
-
-char	*ft_itoa(int n);
-char *ft_strmapi(char const *s, char (*f)(unsigned int, char));
-void ft_striteri(char *s, void (*f)(unsigned int, char*));
+char    *ft_itoa(int n);
+char    *ft_strmapi(char const *s, char (*f)(unsigned int, char));
+void    ft_striteri(char *s, void (*f)(unsigned int, char*));
+char **ft_split(char const *s, char c);
+void	ft_lstadd_front(t_list **lst, t_list *new)
 
 #endif
 

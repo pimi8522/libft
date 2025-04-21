@@ -6,11 +6,23 @@
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/17 14:15:59 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/17 14:17:05 by miduarte         ###   ########.fr       */
+/*   Updated: 2025/04/21 10:41:27 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
 int ft_lstsize(t_list *lst)
 {
-	
+	t_list  *temp;
+	int  i;
+
+	temp = lst;
+	i = 0;
+	while (temp)
+	{
+		temp = temp->next;
+		i++;
+	}
+	return (i);
 }

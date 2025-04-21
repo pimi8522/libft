@@ -28,8 +28,8 @@
 | :-------- | :------- | :------- |
 | ft_substr | <p align="center">✅</p> | <p align="center">❌</p> |
 | ft_strjoin | <p align="center">✅</p> | <p align="center">❌</p> |
-| ft_strtrim | <p align="center">❌</p> | <p align="center">❌</p> |
-| ft_split | <p align="center">❌</p> | <p align="center">❌</p> |
+| ft_strtrim | <p align="center">✅</p> | <p align="center">❌</p> |
+| ft_split | <p align="center">✅</p> | <p align="center">❌</p> |
 | ft_itoa | <p align="center">✅</p> | <p align="center">❌</p> |
 | ft_strmapi | <p align="center">✅</p> | <p align="center">❌</p> |
 | ft_striteri | <p align="center">✅</p> | <p align="center">❌</p> |

@@ -6,13 +6,13 @@
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/12 19:38:04 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/14 10:19:43 by miduarte         ###   ########.fr       */
+/*   Updated: 2025/04/21 14:54:50 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-const char * ft_strchr ( const char * str, int character )
+const char	*ft_strchr(const char *str, int character)
 {
 	size_t	i;
 

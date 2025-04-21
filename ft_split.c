@@ -6,7 +6,7 @@
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/16 10:38:25 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/21 10:35:10 by miduarte         ###   ########.fr       */
+/*   Updated: 2025/04/21 14:21:22 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,6 @@ static int	ft_count_words(char const *str, char c)
 
 static char	*get_word(char const *str, char c, int *x)
 {
-
 	int		start;
 	int		len;
 	char	*word;

@@ -6,18 +6,18 @@
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/11 17:58:18 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/12 18:43:27 by miduarte         ###   ########.fr       */
+/*   Updated: 2025/04/21 14:15:40 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void *ft_memmove(void *dest, const void *src, size_t len)
+void	*ft_memmove(void *dest, const void *src, size_t len)
 {
 	char	*tempsrc;
 	char	*tempdest;
 	size_t	i;
-	
+
 	i = 0;
 	tempsrc = (char *) src;
 	tempdest = (char *) dest;
@@ -37,5 +37,5 @@ void *ft_memmove(void *dest, const void *src, size_t len)
 			i++;
 		}
 	}
-	return(dest);
+	return (dest);
 }

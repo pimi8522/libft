@@ -6,17 +6,17 @@
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/14 13:15:33 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/14 13:23:25 by miduarte         ###   ########.fr       */
+/*   Updated: 2025/04/21 15:12:54 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strjoin(char const *s1, char const *s2)
+char	*ft_strjoin(char const *s1, char const *s2)
 {
-	char *s3;
-	int i;
-	int i2;
+	char	*s3;
+	int		i;
+	int		i2;
 
 	i = 0;
 	i2 = 0;

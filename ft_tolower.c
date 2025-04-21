@@ -6,13 +6,13 @@
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 12:45:46 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/10 13:01:45 by miduarte         ###   ########.fr       */
+/*   Updated: 2025/04/21 15:20:45 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_tolower(int	ch)
+int	ft_tolower(int ch)
 {
 	if (ch >= 'A' && ch <= 'Z')
 		ch = ch + 32;

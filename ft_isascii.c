@@ -6,13 +6,13 @@
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 11:36:38 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/10 13:01:59 by miduarte         ###   ########.fr       */
+/*   Updated: 2025/04/21 12:48:48 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isacii (int	c)
+int	ft_isacii(int c)
 {
 	if (c >= 0 && c <= 127)
 		return (1);

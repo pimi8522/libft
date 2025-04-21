@@ -6,13 +6,13 @@
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 11:25:45 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/10 13:02:03 by miduarte         ###   ########.fr       */
+/*   Updated: 2025/04/21 12:49:31 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isprint (int	c)
+int	ft_isprint(int c)
 {
 	if (c >= 32 && c <= 127)
 		return (1);

@@ -6,16 +6,16 @@
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/14 14:45:07 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/14 14:51:47 by miduarte         ###   ########.fr       */
+/*   Updated: 2025/04/21 14:20:57 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_putstr_fd(char *s, int fd)
+void	ft_putstr_fd(char *s, int fd)
 {
 	int	i;
-	
+
 	i = 0;
 	while (s[i] != '\0')
 	{

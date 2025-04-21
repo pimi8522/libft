@@ -6,7 +6,7 @@
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/11 11:58:34 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/11 12:28:33 by miduarte         ###   ########.fr       */
+/*   Updated: 2025/04/21 14:15:08 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,10 @@
 
 void	*ft_memcpy(void	*dest, const void	*source, size_t	num)
 {
-	unsigned char *destptr;
+	unsigned char	*destptr;
 	unsigned char	*srcptr;
-	size_t	i;
-	
+	size_t			i;
+
 	i = 0;
 	if (!dest && !source)
 		return (dest);

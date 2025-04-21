@@ -6,13 +6,13 @@
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/12 18:52:30 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/12 19:02:41 by miduarte         ###   ########.fr       */
+/*   Updated: 2025/04/21 15:16:44 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_strncmp ( const char * str1, const char * str2, size_t num )
+int	ft_strncmp(const char *str1, const char *str2, size_t num)
 {
 	size_t	i;
 
@@ -28,4 +28,3 @@ int ft_strncmp ( const char * str1, const char * str2, size_t num )
 	}
 	return (0);
 }
-

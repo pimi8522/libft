@@ -6,13 +6,13 @@
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/15 10:51:12 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/15 12:30:57 by miduarte         ###   ########.fr       */
+/*   Updated: 2025/04/21 12:50:26 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static long    ft_intlen(long n)
+static long	ft_intlen(long n)
 {
 	long	i;
 
@@ -28,6 +28,7 @@ static long    ft_intlen(long n)
 	}
 	return (i);
 }
+
 char	*ft_itoa(int n)
 {
 	char	*numstr;
@@ -56,5 +57,3 @@ char	*ft_itoa(int n)
 	}
 	return (numstr);
 }
-
-

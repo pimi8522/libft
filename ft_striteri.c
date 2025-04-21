@@ -6,7 +6,7 @@
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/15 14:51:20 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/21 15:12:33 by miduarte         ###   ########.fr       */
+/*   Updated: 2025/04/21 16:02:14 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 	int	i;
 
 	if (!s || !f)
-		return (NULL);
+		return ;
 	i = 0;
 	while (s[i])
 	{

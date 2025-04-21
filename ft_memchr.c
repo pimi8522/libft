@@ -6,7 +6,7 @@
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/14 10:15:11 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/21 14:13:38 by miduarte         ###   ########.fr       */
+/*   Updated: 2025/04/21 15:59:05 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	unsigned char	chr;
 	size_t			i;
 
-	str = (unsigned char)s;
+	str = (unsigned char *)s;
 	chr = (unsigned char)c;
 	i = 0;
 	while (i < n)

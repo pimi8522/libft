@@ -6,7 +6,7 @@
 #    By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/21 11:35:10 by miduarte          #+#    #+#              #
-#    Updated: 2025/04/21 11:37:58 by miduarte         ###   ########.fr        #
+#    Updated: 2025/04/21 16:50:47 by miduarte         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -56,7 +56,3 @@ fclean: clean
 	$(RM) bonus
 
 re: fclean all
-
-so:
-	$(CC) -nostartfiles -fPIC $(CFLAGS) $(SRC)
-	gcc -nostartfiles -shared -o libft.so $(OBJ)

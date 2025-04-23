@@ -6,7 +6,7 @@
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 14:52:12 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/22 14:25:46 by miduarte         ###   ########.fr       */
+/*   Updated: 2025/04/23 11:08:20 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,10 @@ size_t	ft_strlcat(char *dest, const char *src, size_t dstsize)
 	size_t	i;
 
 	i = 0;
-	destlen = ft_strlen(dest);
 	srclen = ft_strlen(src);
+	if (dstsize == 0)
+		return (srclen);
+	destlen = ft_strlen(dest);
 	if (destlen > dstsize)
 		return (dstsize + srclen);
 	if (dstsize < 1)

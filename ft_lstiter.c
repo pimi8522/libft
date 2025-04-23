@@ -6,7 +6,7 @@
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/21 11:07:21 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/21 13:13:47 by miduarte         ###   ########.fr       */
+/*   Updated: 2025/04/23 11:05:34 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 {
 	t_list	*temp;
 
+	if (!lst || !f)
+		return ;
 	temp = lst;
 	while (temp)
 	{

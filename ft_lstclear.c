@@ -6,7 +6,7 @@
 /*   By: miduarte <miduarte@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/21 10:59:22 by miduarte          #+#    #+#             */
-/*   Updated: 2025/04/21 12:52:30 by miduarte         ###   ########.fr       */
+/*   Updated: 2025/04/23 10:20:03 by miduarte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	ft_lstclear(t_list **lst, void (*del)(void*))
 	while (*lst)
 	{
 		temp = (*lst)->next;
-		ft_lstdelone(*lst, temp);
+		del(*lst);
 		*lst = temp;
 	}
 	free(*lst);
